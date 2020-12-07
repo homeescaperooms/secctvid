@@ -16,6 +16,7 @@ html {
   flex-direction: column;
   min-height: 100%;
   align-items: center;
+    background-color: #222;
 }
 
 .full-width {
@@ -26,6 +27,7 @@ html {
   text-align: var(--justify-normal);
   min-height: 70px;
   flex-shrink: 0;
+    background-color: #333
 }
 
 main {
@@ -40,6 +42,7 @@ footer > * {
 
 .map-container {
   width: 100%;
+       background-color: #333;
 }
 
 .map-container > figure {
@@ -47,16 +50,26 @@ footer > * {
 }
 
 .pin {
-  width: 2%;
+  width: 6%;
   position: absolute;
   cursor: pointer;
   transform: translate(-50%, -90%);
   transition: all 0.1s ease;
 }
 
-.pin:hover {
-  transform: translate(-50%, -95%) scale(1.15);
+.cam{
+     width: 6%;
+  position: absolute;
+  cursor: pointer;
+  transform: translate(-50%, -90%);
+  transition: all 0.1s ease;
 }
+
+
+.cam:hover{
+  transform: translate(-50%, -90%) scale(1.05);
+}
+
 
 @media (max-width: 768px) {
   .pin {

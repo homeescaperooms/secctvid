@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 66.6 48.8" style="enable-background:new 0 0 66.6 48.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);stroke:#D45D6F;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:3;}
+	.st1{fill:#D45D6F;}
+	.st2{fill:#FFFFFF;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-674.5984" y1="-222.3522" x2="-653.3484" y2="-201.1022" gradientTransform="matrix(0.71 0.71 -0.71 0.71 354.3898 654.5708)">
+	<stop  offset="0.4527" style="stop-color:#8E5565"/>
+	<stop  offset="0.5702" style="stop-color:#895665;stop-opacity:0.7854"/>
+	<stop  offset="0.708" style="stop-color:#7B5866;stop-opacity:0.5336"/>
+	<stop  offset="0.8554" style="stop-color:#635D68;stop-opacity:0.2642"/>
+	<stop  offset="1" style="stop-color:#45626A;stop-opacity:0"/>
+</linearGradient>
+<polyline class="st0" points="66.1,48.3 33.2,15.4 0.5,48.1 "/>
+<circle class="st1" cx="33.2" cy="15.4" r="15.4"/>
+<path class="st2" d="M38.8,24.5l-2.4-4.2h0.2c1.5,0,2.7-1.2,2.7-2.7V7.7C39.2,6.2,38,5,36.5,5h-6.7c-1.5,0-2.7,1.2-2.7,2.7v9.9
+	c0,1.5,1.2,2.7,2.7,2.7H30l-2.4,4.2c-0.2,0.4-0.1,0.9,0.3,1.2c0,0,0,0,0,0c0.1,0.1,0.3,0.1,0.4,0.1h4.9H38c0.5,0,0.9-0.4,0.8-0.9
+	C38.9,24.7,38.9,24.6,38.8,24.5z"/>
+</svg>
