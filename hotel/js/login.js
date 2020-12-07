@@ -13,8 +13,8 @@ window.addEventListener("DOMContentLoaded", event => {
     let pass_hash = sha1(pass);
     console.log(name, pass, name_hash, pass_hash);
     if (
-      name_hash == "23146de716b7e4540cde088e3c614aac6890d649" &&
-      pass_hash == "b1df41639065c215d1339e10083aed02f4244b6a"
+      name_hash == "46e42e76fe28d11b871812f11661e89c3570dc8a" &&
+      pass_hash == "3c76060d27b7df4c9c3ee7dc8beaf96e080f0ecf"
     ) {
       // valid
       loginCorrect();
