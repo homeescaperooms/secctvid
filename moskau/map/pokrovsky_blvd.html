@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="../favicon.png">
+    <link rel="stylesheet" href="../css/normalize.min.css">
+    <link rel="stylesheet" href="../css/retro.css">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>secctvid Backend</title>
+</head>
+
+<body>
+    <header class="typewriter">
+        <h1>Покровский бульвар(pokrovsky blvd)</h1>
+    </header>
+    <main>
+         <section>
+            <table>
+                <tr>
+                    <th>file_name</th>
+                    <th>date</th>
+                    <th>type</th>
+                </tr>
+                <tr>
+                    <td><a href="../map/index.html">&lt; back</a></td>
+                </tr>
+                <tr>
+                    <td><a href="./pokrovsky_blvd/19/index.html">CAM_2021-01-19</a></td>
+                    <td>19.12.2020</td>
+                    <td>directory</td>
+                </tr>
+                <tr>
+                    <td><a href="./pokrovsky_blvd/20/index.html">CAM_2021-01-20</a></td>
+                    <td>20.12.2020</td>
+                    <td>directory</td>
+                </tr>
+                <tr>
+                    <td><a href="./pokrovsky_blvd/21/index.html">CAM_2021-01-21</a></td>
+                    <td>21.12.2020</td>
+                    <td>directory</td>
+                </tr>
+                <tr>
+                    <td><a href="./pokrovsky_blvd/22/index.html">CAM_2021-01-22</a></td>
+                    <td>22.12.2020</td>
+                    <td>directory</td>
+                </tr>
+                <tr>
+                    <td><a href="./pokrovsky_blvd/23/index.html">CAM_2021-01-23</a></td>
+                    <td>23.12.2020</td>
+                    <td>directory</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <table style="width: 100%;">
+            <tr>
+                <td id="access-time">Access time in 27.3ms.</td>
+                <td style="float: right;">secctvid</td>
+            </tr>
+        </table>
+    </footer>
+
+    <script>
+        const randomTime = () => { let t = Math.random() * 100; return t.toFixed(2) }
+        document.getElementById("access-time").innerHTML = `Access time in ${randomTime()}ms`
+
+        window.addEventListener("DOMContentLoaded", event => {
+            generateCamTable("25.03.2020", {
+                // Format: [STUNDE DES VIDEOS]: [VIDEO DATEINAME]
+                1: "IMG_5090.MP4"
+            })
+        });
+    </script>
+
+</body>
+
+</html>
