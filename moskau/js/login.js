@@ -13,7 +13,7 @@ window.addEventListener("DOMContentLoaded", event => {
     let pass_hash = sha1(pass);
     console.log(name, pass, name_hash, pass_hash);
     if (
-      name_hash == "46e42e76fe28d11b871812f11661e89c3570dc8a" &&
+      name_hash == "60756d606cb8c5d45820c7a4c67684ec0b86e874" &&
       pass_hash == "3c76060d27b7df4c9c3ee7dc8beaf96e080f0ecf"
     ) {
       // valid
