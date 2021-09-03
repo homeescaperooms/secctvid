@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="../favicon.png">
+    <link rel="stylesheet" href="../css/normalize.min.css">
+    <link rel="stylesheet" href="../css/retro.css">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>secctvid Backend</title>
+</head>
+
+<body>
+    <header class="typewriter">
+        <h1>CAM7 - LOHRING ID: 9GY2YG73QC</h1>
+    </header>
+    <main>
+         <section>
+            <table>
+                <tr>
+                    <th>file_name</th>
+                    <th>date</th>
+                    <th>type</th>
+                </tr>
+                <tr>
+                    <td><a href="../map/index.html">&lt; back</a></td>
+                </tr>
+                <tr>
+                    <td><a href="./cam7/26/index.html">CAM_2021-08-26</a></td>
+                    <td>26.08.2021</td>
+                    <td>directory</td>
+                </tr>
+                <tr>
+                    <td><a href="./cam7/27/index.html">CAM_2021-08-27</a></td>
+                    <td>27.08.2021</td>
+                    <td>directory</td>
+                </tr>
+                <tr>
+                    <td><a href="./cam7/28/index.html">CAM_2021-08-28</a></td>
+                    <td>28.08.2021</td>
+                    <td>directory</td>
+                </tr>
+                <tr>
+                    <td><a href="./cam7/29/index.html">CAM_2021-08-29</a></td>
+                    <td>29.08.2021</td>
+                    <td>directory</td>
+                </tr>
+                <tr>
+                    <td><a href="./cam7/30/index.html">CAM_2021-08-30</a></td>
+                    <td>30.08.2021</td>
+                    <td>directory</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <table style="width: 100%;">
+            <tr>
+                <td id="access-time">Access time in 27.3ms.</td>
+                <td style="float: right;">secctvid</td>
+            </tr>
+        </table>
+    </footer>
+
+    <script>
+        const randomTime = () => { let t = Math.random() * 100; return t.toFixed(2) }
+        document.getElementById("access-time").innerHTML = `Access time in ${randomTime()}ms`
+
+        window.addEventListener("DOMContentLoaded", event => {
+            generateCamTable("25.03.2020", {
+                // Format: [STUNDE DES VIDEOS]: [VIDEO DATEINAME]
+                13: "d1.MP4",
+                15: "d2.MP4",
+                2: "n1.MP4",
+                4: "n3.MP4",
+                5: "n2.MP4",
+            })
+        });
+    </script>
+
+</body>
+
+</html>
