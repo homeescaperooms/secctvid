@@ -13,8 +13,8 @@ window.addEventListener("DOMContentLoaded", event => {
     let pass_hash = sha1(pass);
     console.log(name, pass, name_hash, pass_hash);
     if (
-      name_hash == "60756d606cb8c5d45820c7a4c67684ec0b86e874" &&
-      pass_hash == "3c76060d27b7df4c9c3ee7dc8beaf96e080f0ecf"
+      name_hash == "17b9e1c64588c7fa6419b4d29dc1f4426279ba01" &&
+      pass_hash == "f1f804e4f70c79daa5d4ea39c7384caa64e614d8"
     ) {
       // valid
       loginCorrect();
@@ -32,7 +32,7 @@ function loginWrong() {
 
 function loginCorrect() {
   // TODO: /map is not secured
-  window.location.href = "/moskau/map"; //relative to domain
+  window.location.href = "/bochum/map/index.html"; //relative to domain
 }
 
 // sha1 function
